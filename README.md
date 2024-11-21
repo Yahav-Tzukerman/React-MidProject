@@ -36,13 +36,10 @@ Open your browser and navigate to `http://localhost:5173` to view the applicatio
 
 - **Component-Based Architecture**: The project is built using a component-based architecture, making it modular and easy to maintain.
 - **State Management**: Utilizes React's built-in state management and Context API for managing application state.
-- **Routing**: Implements client-side routing using React Router for a seamless navigation experience.
 - **API Integration**: Demonstrates how to fetch and display data from external APIs.
 - **Responsive Design**: Ensures the application is mobile-friendly and works well on various screen sizes.
 - **Form Handling**: Includes examples of controlled and uncontrolled form components.
-- **Error Handling**: Implements error boundaries and error handling mechanisms to improve user experience.
 - **Styling**: Uses CSS modules and styled-components for scoped and dynamic styling.
-- **Testing**: Includes unit and integration tests using Jest and React Testing Library.
 - **Build and Deployment**: Configured for production builds and deployment using tools like Vite.
 
 ## Contributing
