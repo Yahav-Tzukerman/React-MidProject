@@ -1,0 +1,178 @@
+.user-card {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card.selected {
+    background-color: orange;
+}
+
+.user-card.show-other-data {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-card label {
+    font-weight: bold;
+}
+
+.user-card p {
+    margin: 0 10px 0 0;
+}
+
+.user-card .left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card .card-data {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.user-card .card-data label {
+    flex: 1;
+}
+
+.user-card .card-data input {
+    flex: 2;
+}
+
+.user-card .card-data p {
+    flex: 2;
+}
+
+.user-card .card-data input {
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.user-card .other-data-button {
+    background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.user-card .other-data {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.user-card .button-group {
+    display: flex;
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+.user-card .update-button,
+.user-card .delete-button {
+    width: 70px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.user-card .update-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+.user-card .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .user-card {
+        padding: 8px;
+        margin: 8px 0;
+    }
+
+    .user-card .card-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-card .card-data p {
+        position: absolute;
+        left: 70px;
+        top: 15px;
+    }
+
+    .user-card .card-data label,
+    .user-card .card-data input {
+        flex: none;
+        width: 80%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .user-card .button-group {
+        flex-direction: column;
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    .user-card .update-button,
+    .user-card .delete-button {
+        font-size: 0.3em;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .user-card {
+        padding: 5px;
+        margin: 5px 0;
+    }
+
+    .user-card .other-data-button {
+        padding: 3px 5px;
+    }
+
+    .user-card .card-data p {
+        position: absolute;
+        left: 70px;
+        top: 15px;
+    }
+
+    .user-card .card-data label,
+    .user-card .card-data input {
+        flex: none;
+        width: 80%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .user-card .update-button,
+    .user-card .delete-button {
+        font-size: 0.01em;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}

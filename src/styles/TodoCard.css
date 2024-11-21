@@ -1,0 +1,50 @@
+.todo-card {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid purple;
+}
+
+.todo-card p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.todo-card .card-data {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.card-data strong {
+    display: block;
+    font-weight: bold;
+}
+
+.card-data p {
+    margin: 5px 0;
+}
+
+.todo-card button {
+    margin-left: 5vw;
+    width: 45%;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.todo-card button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,39 @@
+.add-user-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    /* Increased width */
+    margin: 50px auto;
+    /* Centered vertically and horizontally */
+}
+
+.add-user-form .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.add-user-form .form-group label {
+    margin-right: 10px;
+    /* Space between label and input */
+    white-space: nowrap;
+}
+
+.add-user-form .form-group input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-user-form .buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

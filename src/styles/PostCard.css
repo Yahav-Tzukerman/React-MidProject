@@ -1,0 +1,35 @@
+.post-card {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid purple;
+}
+
+.post-card p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.post-card .card-data {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.card-data strong {
+    display: block;
+    font-weight: bold;
+}
+
+.card-data p {
+    margin: 5px 0;
+}
