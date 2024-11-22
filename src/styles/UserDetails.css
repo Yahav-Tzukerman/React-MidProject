@@ -1,0 +1,14 @@
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .user-details-section {
+        max-width: 260px;
+    }
+    .card-data label {
+        font-size: 10px;
+    }
+
+    .card-data input {
+        width: 50%;
+        margin-bottom: 5px;
+    }
+}

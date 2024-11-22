@@ -44,3 +44,24 @@
 .search-bar input {
     flex: 1;
 }
+
+@media (max-width: 768px) {
+    .search-bar {
+        font-size: 12px;
+    }
+
+    .search-bar button {
+        padding: 2px;
+        width: 20%;
+    }
+
+    .search-bar input {
+        padding: 5px;
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .search-bar label {
+        font-size: 0;
+    }
+}

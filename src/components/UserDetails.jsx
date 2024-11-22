@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TodosList from "./TodosList";
 import PostsList from "./PostsList";
+import "../styles/UserDetails.css";
 
 const UserDetails = ({
   userId,
@@ -28,7 +29,7 @@ const UserDetails = ({
   };
 
   return (
-    <div>
+    <div className="user-details-section">
       <TodosList
         todos={todos}
         isAddingTodo={isAddingTodo}

@@ -13,7 +13,7 @@ const TodosList = ({
   selectedUserId,
 }) => {
   return (
-    <div style={{ maxHeight: "50vh", overflowY: "auto", padding: "10px" }}>
+    <div style={{ maxHeight: "50vh", overflowY: "auto", padding: "5px" }}>
       {!isAddingTodo ? (
         <div>
           <div

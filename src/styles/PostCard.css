@@ -10,6 +10,12 @@
     display: flex;
     flex-direction: column;
     border: 2px solid purple;
+    width: 90%;
+    /* Adjust width to be responsive */
+    max-width: 600px;
+    /* Set a max-width for larger screens */
+    margin: 10px auto;
+    /* Center the card */
 }
 
 .post-card p {
@@ -32,4 +38,25 @@
 
 .card-data p {
     margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .post-card {
+        font-size: 10px;
+        max-width: 180px;
+
+    }
+
+    .post-card p {
+        font-size: 10px;
+    }
+
+    .post-card button {
+        left: 60%;
+        /* Adjust position to be responsive */
+        padding: 5px 8px;
+        font-size: 10px;
+        max-width: 60px;
+
+    }
 }

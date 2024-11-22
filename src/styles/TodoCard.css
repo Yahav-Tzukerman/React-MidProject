@@ -10,11 +10,18 @@
     display: flex;
     flex-direction: column;
     border: 2px solid purple;
+    width: 90%;
+    /* Adjust width to be responsive */
+    max-width: 600px;
+    /* Set a max-width for larger screens */
+    margin: 10px auto;
+    /* Center the card */
 }
 
 .todo-card p {
     padding: 10px;
-    font-size: 16px;
+    font-size: 17px;
+    /* Smaller font size */
 }
 
 .todo-card .card-data {
@@ -35,8 +42,10 @@
 }
 
 .todo-card button {
-    margin-left: 5vw;
-    width: 45%;
+    position: absolute;
+    max-width: 120px;
+    left: 70%;
+    /* Adjust position to be responsive */
     padding: 8px 12px;
     background-color: #007bff;
     color: #fff;
@@ -47,4 +56,28 @@
 
 .todo-card button:hover {
     background-color: #0056b3;
+}
+
+/* Media queries for responsiveness */
+
+
+@media (max-width: 768px) {
+    .todo-card {
+        font-size: 10px;
+        max-width: 180px;
+
+    }
+
+    .todo-card p {
+        font-size: 10px;
+    }
+
+    .todo-card button {
+        left: 60%;
+        /* Adjust position to be responsive */
+        padding: 5px;
+        font-size: 10px;
+        max-width: 60px;
+
+    }
 }

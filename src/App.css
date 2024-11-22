@@ -142,3 +142,35 @@ button:hover {
     font-size: 0em;
   }
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .app-container {
+    width: 95%;
+    max-width: 400px;
+  }
+
+  p,
+  input,
+  button,
+  label {
+    padding: 0;
+    font-size: 10px;
+  }
+
+  .user-list {
+    max-width: 150px;
+  }
+
+  .user-details {
+    max-width: 200px;
+  }
+
+  .add-user {
+    max-width: 150px;
+  }
+
+  .search-bar {
+    max-width: 150px;
+  }
+}
