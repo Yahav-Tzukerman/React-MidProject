@@ -2,7 +2,7 @@
 
 ## Demo
 
-Check out the live demo of the project [here](https://react-mid-project-jrql8xlbf-yahav-tzukermans-projects.vercel.app/).
+Check out the live demo of the project [here](https://react-mid-project-jrql8xlbf-yahav-tzukermans-projects.vercel.app/){:target="\_blank"}.
 
 This project is a mid-level React application developed as part of the React course. It demonstrates the use of various React features and best practices.
 
